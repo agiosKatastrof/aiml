@@ -17,5 +17,7 @@ $jupyter notebook
 
 open via http link in logs, with token
 
+# browse to git location via jupyter
+
 # go through SVM example
 https://pythonprogramming.net/linear-svc-example-scikit-learn-svm-python/
