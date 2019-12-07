@@ -4,6 +4,8 @@ just me learning aiml
 # get pycharms on mint
 https://linux4one.com/how-to-install-pycharm-on-linux-mint-19/
 
+# link githubs to pycharms
+
 # download anaconda - installs jupyter and other ML tools, a python dist as well
 https://www.anaconda.com/distribution/#download-section
 
