@@ -18,6 +18,9 @@ $jupyter notebook
 open via http link in logs, with token
 
 # browse to git location via jupyter
+use jupyter as an ide
+cntrl-s save cell
+cntrl-enter run the cell
 
 # go through SVM example
 https://pythonprogramming.net/linear-svc-example-scikit-learn-svm-python/
