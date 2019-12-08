@@ -21,6 +21,8 @@ cntrl-s save cell
 cntrl-enter run the cell
 
 # go through SVM example
-https://scikit-learn.org/stable/
+https://scikit-learn.org/stable
+
 https://www.datacamp.com/community/tutorials/svm-classification-scikit-learn-python
-https://stackabuse.com/implementing-svm-and-kernel-svm-with-pythons-scikit-learn/
+
+https://stackabuse.com/implementing-svm-and-kernel-svm-with-pythons-scikit-learn
