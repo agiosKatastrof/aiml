@@ -44,13 +44,15 @@ $ git config --global user.email "your_email@example.com"
 Then, create a new repo in github, and then check it out into your local git workspace
 https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
 
-Some common git commands
 
+The barebones git workflow
+1. check your git status
 ```
 $ git status
 ```
-shows the overll status of your workspace
+This shows the overll status of your workspace
 
+2. Add/Edit your files - Jupyter will create the files
 
 ```
 $ git add .
@@ -58,15 +60,39 @@ $ git add .
 adds new file to your repo
 
 ```
+
+3. Commit your files locally
 $ git commit .
 ```
 saves your changes
 
+4. Push your changes to master to github
 ```
 $ git push origin master
 ```
 pushes your changes from local git workspace to master in github
+This will ask for your user + password on github.  You can also add your username in the config file to save the step of entering the username.
+Just add your username in the github link in the config file under the .git directory.
 
+```
+/repo/.git$ cat config 
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[submodule]
+	active = .
+[remote "origin"]
+	url = https://agioskatastrof@github.com/agiosKatastrof/aiml.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+```
+
+
+### Using Jupyter
 
 launch jupyter from command line
 ```
@@ -74,7 +100,9 @@ $ jupyter notebook
 ````
 The above will follow with a bunch of logs - open the link with the http://localhost or http://127.0.0.1 with the token
 
+
 browse to git location via jupyter
+Or you can start jupyter from the director of your git repo
 click 'new' upper right to start a new file - choose python3
 
 ## CODING
