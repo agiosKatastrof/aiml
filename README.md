@@ -1,7 +1,7 @@
 # aiml 
 learning AI/ML
 
-## TOOLING
+## I. TOOLING
 
 ### Anaconda
 Anaconda is a packaged suite of tools related to machine learning.  
@@ -38,9 +38,12 @@ https://linux4one.com/how-to-install-pycharm-on-linux-mint-19/
 ### GIT
 Or you can just use Jupyter + command line git.
 
-https://git-scm.com/downloads
 
 To setup a git client
+Download and install 
+https://git-scm.com/downloads
+
+Then;
 ```
 $ cd <to the dir where you are keeping your local git workspace>
 $ mkdir <your_workspace>
@@ -115,7 +118,7 @@ The above will follow with a bunch of logs - open the link with the http://local
 
 click 'new' upper right to start a new file - choose python3
 
-## CODING
+## II. THEORY
 
 ### SCIKIT
 use scikit, one of the more commont ML libs
@@ -124,6 +127,7 @@ https://scikit-learn.org/stable
 
 Note that using Jupyter, you need not "print".  The stdout (standard out) will be displayed in the browser.
 
+#### SVM
 Start with  SVM (support vector machine) example
 At a high level SVM helps you to categorize data - as simple as a Yes/No, based on previous known sample data.
 E.g.,
@@ -132,8 +136,21 @@ E.g.,
 2. Then given a fruit (say, Apple), the SVM will try to determine if it is a fruit or a vegetable, based on the data it has (the data that it has been "trained" with).
 
 The below has nice graphical illustration of SVM
-Go through the code snippet examples as well
+Go through the theory explanations, and then follow through on the examples beginning with "Loading Data"
 https://www.datacamp.com/community/tutorials/svm-classification-scikit-learn-python
+
+Questions to ask yourself -
+1. What are "features" of a data set?
+https://www.datarobot.com/wiki/feature/
+Essentially, columns of a table
+
+2. What is "shape"?
+https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.shape.html
+Describes the array with respect to its row, column lengths
+
+3. What is the "target"?
+https://datascience.stackexchange.com/questions/44108/difference-between-a-target-and-a-label-in-machine-learning
+Essentially, the output that you are trying to determine
 
 https://stackabuse.com/implementing-svm-and-kernel-svm-with-pythons-scikit-learn
 
