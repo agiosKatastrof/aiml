@@ -1,6 +1,5 @@
 # aiml 
 learning AI/ML
-This aim to lay out a path to learn AI/ML
 
 ## TOOLING
 
@@ -19,8 +18,15 @@ Jupyter is browser based tool for experimental coding.   It is not meant for cre
 
 Jupyter works in 'cells'.  You can run/save each cell independantly - but the latest state of the overall code is in memory - you need to be aware of what state your cell is in - see the number inside the [] brackets tells you the order of the cells in state.   
 
-cntrl-s save cell
-cntrl-enter runs cell
+```
+cntrl-s 
+```
+save cell
+
+```
+cntrl-enter 
+```
+runs snippet in cell
 
 ### IDE
 You don't actually have to use Jupyter, as you can write/code directly in Jupyter.
@@ -36,6 +42,9 @@ https://git-scm.com/downloads
 
 To setup a git client
 ```
+$ cd <to the dir where you are keeping your local git workspace>
+$ mkdir <your_workspace>
+$ cd <your_workspace>
 $ git init
 $ git config --global user.name "Your name here"
 $ git config --global user.email "your_email@example.com"
@@ -45,32 +54,35 @@ Then, create a new repo in github, and then check it out into your local git wor
 https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
 
 
-The barebones git workflow
+The barebones git workflow.
+Run the below in your workspace directory.
+
 1. check your git status
+This shows the overll status of your workspace
 ```
 $ git status
 ```
-This shows the overll status of your workspace
 
 2. Add/Edit your files - Jupyter will create the files
+adds new file to your repo
 
 ```
 $ git add .
 ```
-adds new file to your repo
 
-```
 
 3. Commit your files locally
+saves your changes
+```
 $ git commit .
 ```
-saves your changes
 
 4. Push your changes to master to github
+pushes your changes from local git workspace to master in github
 ```
 $ git push origin master
 ```
-pushes your changes from local git workspace to master in github
+
 This will ask for your user + password on github.  You can also add your username in the config file to save the step of entering the username.
 Just add your username in the github link in the config file under the .git directory.
 
@@ -96,13 +108,11 @@ Just add your username in the github link in the config file under the .git dire
 
 launch jupyter from command line
 ```
+$ cd <your_workspace>
 $ jupyter notebook
 ````
 The above will follow with a bunch of logs - open the link with the http://localhost or http://127.0.0.1 with the token
 
-
-browse to git location via jupyter
-Or you can start jupyter from the director of your git repo
 click 'new' upper right to start a new file - choose python3
 
 ## CODING
