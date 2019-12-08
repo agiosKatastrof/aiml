@@ -26,3 +26,5 @@ https://scikit-learn.org/stable
 https://www.datacamp.com/community/tutorials/svm-classification-scikit-learn-python
 
 https://stackabuse.com/implementing-svm-and-kernel-svm-with-pythons-scikit-learn
+
+https://stats.stackexchange.com/questions/155146/visualizing-svm-results
