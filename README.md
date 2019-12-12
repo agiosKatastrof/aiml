@@ -3,14 +3,11 @@ Linked from https://imlearningstuff.home.blog/2019/12/12/tooling-and-environment
 
 ## Linux
 Install Linux.  I'm using Mint.  
-http://https://linuxmint.com/download.php
-
-https://www.anaconda.com/distribution/#download-section
+https://linuxmint.com/download.php
 
 ## Git
 If you haven't already, create a github account, and a local git setup.
 
-To setup a git client
 Download and install 
 https://git-scm.com/downloads
 
@@ -28,7 +25,7 @@ Then, create a new repo in github, and then check it out into your local git wor
 https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
 
 
-The barebones git workflow.
+## The Barebones Git Workflow
 Run the below in your workspace directory.
 
 1. check your git status
@@ -38,7 +35,7 @@ $ git status
 ```
 
 2. Add/Edit your files - Jupyter will create the files
-adds new file to your repo
+Adds new file to your repo.
 
 ```
 $ git add .
@@ -46,13 +43,13 @@ $ git add .
 
 
 3. Commit your files locally
-saves your changes
+Saves your changes.  Git will ask you to enter some notes about the commit.
 ```
 $ git commit .
 ```
 
 4. Push your changes to master to github
-pushes your changes from local git workspace to master in github
+Pushes your changes from local git workspace to master in github
 ```
 $ git push origin master
 ```
@@ -79,9 +76,10 @@ Just add your username in the github link in the config file under the .git dire
 
 ## Jupyter, Python and a bunch of AI/ML libs via Anaconda
 https://jupyter.org/install
+
 But note the "We strongly recommend installing Python and Jupyter using the Anaconda Distribution, which includes Python, the Jupyter Notebook, and other commonly used packages for scientific computing and data science."
 
-So that's what we're going to do.
+So that's what we're going to do. Install the Python 3.7 version.
 
 https://www.anaconda.com/distribution/#download-section
 
@@ -104,3 +102,5 @@ runs snippet in cell
 
 
 Where your started Jupyter is where your code will be, so you should start it in your local git repo directory.  But you can also browse via Jupyter's interface.  Jupyter files are .ipynb.
+
+You are using Jupyter like an IDE.  After you save a notebook, commit and push the changes to github per above.
