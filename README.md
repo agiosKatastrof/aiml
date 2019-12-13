@@ -96,7 +96,7 @@ cntrl-s
 save cell
 
 ```
-cntrl-enter 
+shift-enter 
 ```
 runs snippet in cell
 
