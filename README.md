@@ -1,10 +1,10 @@
-## This would be the accompanying code for
-### https://imlearningstuff.home.blog/
+## This repo contains accompanying code for: 
+https://imlearningstuff.home.blog/
+In particular 
+https://imlearningstuff.home.blog/2019/12/?order=asc
 
-## In particular 
-### https://imlearningstuff.home.blog/2019/12/?order=asc
-
-# The Setup Document.
+## The below is setup notes from:
+https://imlearningstuff.home.blog/2019/12/12/tooling-and-environment/
 
 ## Linux
 Install Linux.  I'm using Mint.  
